@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imgCss{
+  width: inherit;
+}
+
+.laptopCss{
+  position: absolute;
+  top: 170px;
+  width: 200px;
+}
+
+.cardCss{
+  border-radius: 0% !important;
+}
+
+.secondCardMargin{
+ margin-left: 100px ;
+ margin-right: 100px ;
+}
+
+.headerCss{
+  height: 42px;
+  border-bottom: 1px solid white !important;
+  text-align: start;
+  background-color: #002D62 !important;
+}
+
+.cardBody{
+  text-align: start;
+  background-color: #0066b2;
+}
+.continerColor{
+  background-color: #C0C0C0;
+  box-shadow: 2.5px 2.5px #888888;
+}
+.btnCss{
+  border-radius: 0% !important;
+  background-color: #C8C8C8 !important;
+  color: black !important;
+  font-weight: bolder !important;
+}
+.cardBtnCss{
+  background:red !important; 
+  color:white !important;
+  box-shadow: 2.5px 2.5px #888888;
+}
+.topNotchCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.footerCss{
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.cardContainer{
+  background-color: #800080	;
+}
+.swordCssLeft{
+  width: 100px;
+  position: absolute;
+  left: 4rem;
+  transform: rotate(64deg);
+}
+.swordCssRight{
+  width: 100px;
+  position: absolute;
+  right: 4rem;
+  transform: rotate(111deg);
+}
+.card-text{
+  color: black;
+}
+.headingCss{
+  font-size: 28px;
+}
+.txt-css{
+  font-size: 16px;
+}
+.secureTxtCSs{
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .secondCardMargin{
+    margin: 0px;
+   }
+   .topNotchCardMargin{
+    margin:0px ;
+   }
+   .swordCssLeft{
+    margin-left: -66px; 
+  }
+   .swordCssRight{
+    margin-right: -65px;
+  }
+  .headingCss{
+    font-size: 20px;
+  } 
+}
+@media only screen and (min-width: 1440px) {
+  .topNotchCardMargin{
+    margin-left: 150px ;
+    margin-right: 150px ;
+   }
+  
+}
+
+@font-face {
+  font-family: PixelOperatorMono-Bold;
+  src: url('../public/PixelOperatorMono-Bold.ttf');
+} 
+
+.pixelOperatorMonoBold{
+  font-family: PixelOperatorMono-Bold;
+}
